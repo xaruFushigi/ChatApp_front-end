@@ -133,11 +133,16 @@
 
 #you .message-content {
   justify-content: flex-end;
+  padding: 0px 10px;
+  border-radius: 10px;
 }
 
 #you .message-meta {
   justify-content: flex-end;
   margin-left: 5px;
+  display: flex;
+  width: 100%;
+  font-size: 10px;
 }
 
 #other {
@@ -147,11 +152,17 @@
 #other .message-content {
   justify-content: flex-start;
   background-color: cornflowerblue;
+  padding: 0px 10px;
+  border-radius: 10px;
 }
 
 #other .message-meta {
+  display: flex;
   justify-content: flex-start;
   margin-right: 5px;
+  width: 100%;
+  font-size: 10px
+
 }
 
 .message-meta #author {
